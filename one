@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .nav-item {
+          margin-left: 30px;
+          float: right !important;
+          color: whitesmoke !important;
+        } 
+    
+        .nav-item a {
+    
+          color: whitesmoke !important;
+          font-weight: pink;
+        }
+    
+        .navbar {
+          background-color: rgb(111, 50, 116) !important;
+    
+        }
+    
+        body {                               
+        background: #e06ec7;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10% 0;
+    }
+    .review-card {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    .img-area {
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 25px;
+    }
+    .img-area img {
+        width: 100%;
+    }
+    .header-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .info h4 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .info p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #666;
+    }
+    .single-review p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #080707;
+    }
+    .review-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+    .rating {
+        display: flex;
+    }
+    .rating span {
+        color: #000;
+        font-size: 18px;
+    }
+    .rating span.active {
+        color: #fbc02d;
+    }
+    @media screen and (max-width: 767px) {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .review-card {
+            width: 85%;
+        }
+    }
+    
+    .review-card{
+      margin: 30px;
+    
+    }
+    .wrapper{
+      
+     background-color: #d87eda;
+    }
+    
+      </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="logo1">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.diW3KQ9BnC5BbZs1gmAPkAHaGc&pid=Api&P=0&h=180" alt="logo"
+          style="height: 50px;">
+        </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(236, 196, 196);"><b>MeeSHo</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://127.0.0.1:5500/indexx.html#3">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about in.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="downlod in.html">download App</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact in.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="card mb-3" style="max-width: 50cm;"> <!-- Here use Horizontal to add photo and Text -->
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="meesho" class="img-fluid rounded-start" alt=" MeeSHo"
+                    style="margin: 40px; height: 400px; ">
+            </div>
+            <div class="col-md-6" style="margin-top:8%">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        <b>OVERVIEW</b>
+                    </h2>
+                    <p class="card-text" style="font-size: larger;">
+                        Meesho, founded in 2015 by Vidit Aatrey and Sanjeev Barnwal, is an Indian social commerce platform empowering individuals to launch small businesses. Operating on a social commerce model, Meesho enables users to resell a diverse range of products through social networks like WhatsApp and Facebook. Sellers source products from manufacturers, utilizing Meesho's tools for order management and payment processing. The platform, known for its entrepreneurship opportunities, has received funding to support its growth. Despite challenges and controversies, Meesho has made a significant impact in fostering entrepreneurship and reshaping online commerce in India.s
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    
+    <div>
+        <h1>     MeeSHo App  </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bqpF0r5Bs-E?si=vyr8NRM5xiwC9KI6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="card mb-3" style="max-width: 50cm;"> <!-- Here use Horizontal to add photo and Text -->
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="teamwok" class="img-fluid rounded-start" alt=" MeeSHo"
+                    style="margin: 40px; height: 400px; ">
+            </div>
+            <div class="col-md-6" style="margin-top:8%">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        <b>Team Members:</b>
+                    </h2>
+                    <p class="card-text" style="font-size: larger;">
+                        As of my last knowledge update in January 2022, I don't have specific information about the individual team members of Meesho, including a comprehensive list. Company teams can change, and such detailed information might not always be publicly available or regularly updated.
+
+For the latest and most accurate information about the team members at Meesho, I recommend checking the official Meesho website or their official social media profiles. Companies often provide information about their executive team, founders, and key leaders on their websites or through press releases.
+
+Please note that if there have been changes or updates after my last training data in January 2022, I won't have that information.
+
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <br>
+                <br>
+                <footer class="bg-dark text-light py-5">
+                  <div class="container">
+                      <div class="row">
+                       
+                          <div class="col-md-4">
+                              <h2> MeeSHo </h2>
+                              <p>
+              
+                                  78/9, Outer ring road, Bellandur village, Varthur Hobli, Bangalore Bengaluru, India, 560103 
+                              </p>
+                              <p>Email: https://www.meesho.com/</p>
+                              <p>Ambulance: +91 888888888</p>
+                          </div>
+              
+                          <div class="col-md-4">
+                            <h2>Follow Us</h2>
+                           <a href="https://www.instagram.com/@meeshoapp /">Instagram Id</a>
+                           <br>
+                           <a href="https://www.facebook.com/@meeshoapp /"> Facebook Id</a>
+                        </div>
+              
+                          <div class="col-md-4">
+                              <h2>Contact Us</h2>
+                             <pre>
+              Helpline no:
+              0225-8888888
+              0253-8888888
+              0253-8888888
+                             </pre>
+                      </div>
+                  </div>
+                  <div class="text-center">
+                      <p>&copy; 
+                          As of my last knowledge update in January 2022, I don't have specific information about a headline for the Meesho app. Headlines or taglines for apps may change over time as part of marketing strategies.</p>
+                  </div>
+              </footer> 
+              </div>            
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+              crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+              integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+              crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+              integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+              crossorigin="anonymous"></script>
+              
+              </body>
+              </html>
+
